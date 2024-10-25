@@ -1,6 +1,6 @@
 # Mysterious Verification Site 👀
 
-[![Profile](https://avatars.githubusercontent.com/u/183177265?v=4){: style="width: 20px; height: 20px;"}](https://github.com/MeLegend5555) Made by: **[MeLegend5555](https://github.com/MeLegend5555)**
+Made by: **[MeLegend5555](https://github.com/MeLegend5555)**
 
 Ever stumbled upon something intriguing and mysterious? [Here’s a site](https://melegend5555.github.io/Verification/) that might just blow your mind! Or… well, maybe just make you smile.
 
