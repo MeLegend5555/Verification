@@ -4,12 +4,8 @@ document.getElementById("captcha").addEventListener("change", function() {
 });
 
 document.getElementById("verifyBtn").addEventListener("click", function() {
-    document.title = "Rickrolled LOL";
-
-    window.history.pushState({}, '', '/rickrolled');
-    
+    document.title = "Rickrolled LOL"; 
     const videoUrl = "https://github.com/MeLegend5555/Verification/blob/main/src/rickroll.mp4?raw=true";
-
     const videoPlayer = document.createElement('video');
     videoPlayer.src = videoUrl;
     videoPlayer.style.position = "fixed";
