@@ -1,6 +1,6 @@
 # Mysterious Verification Site 👀
 
-Ever stumbled upon something intriguing and mysterious? [Here’s the site](https://melegend5555.github.io/Verification/) that might just blow your mind! Or… well, maybe just make you smile.
+Ever stumbled upon something intriguing and mysterious? [Here’s a site](https://melegend5555.github.io/Verification/) that might just blow your mind! Or… well, maybe just make you smile.
 
 **Proceed with caution!** You've been warned. 😉
 
