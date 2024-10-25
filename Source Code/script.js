@@ -4,9 +4,10 @@ document.getElementById("captcha").addEventListener("change", function() {
 });
 
 document.getElementById("verifyBtn").addEventListener("click", function() {
-    document.title = "Rickrolled LOL"; 
+    document.title = "Rickrolled LOL";
     const videoUrl = "https://github.com/MeLegend5555/Verification/blob/main/src/rickroll.mp4?raw=true";
     const videoPlayer = document.createElement('video');
+    
     videoPlayer.src = videoUrl;
     videoPlayer.style.position = "fixed";
     videoPlayer.style.top = "0";
@@ -53,7 +54,7 @@ document.getElementById("verifyBtn").addEventListener("click", function() {
     
     const creatorLink = document.createElement('span');
     creatorLink.textContent = "MeLegend5555";
-    creatorLink.style.color = "#00f"; // Hyperlink color
+    creatorLink.style.color = "#00f";
     creatorLink.style.cursor = "pointer";
     creatorLink.onclick = () => window.location.href = "https://github.com/MeLegend5555";
 
