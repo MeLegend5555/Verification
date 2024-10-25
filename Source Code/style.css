@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+.light-mode .container {
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.dark-mode .container {
+    background-color: #333333;
+    border: 1px solid #444;
+}
+
+h1, p, label {
+    transition: color 0.3s ease;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+button:hover:enabled {
+    background-color: #45a049;
+}
+
+.mode-selector {
+    margin-top: 20px;
+}
+
+.mode-selector label {
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.light-mode .mode-selector label {
+    color: #333;
+}
+
+.dark-mode .mode-selector label {
+    color: #FFFFFF;
+}
+
+.mode-selector select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p, label {
+        font-size: 15px;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+
+    .mode-selector {
+        margin-top: 15px;
+    }
+
+    .mode-selector label, .mode-selector select {
+        font-size: 14px;
+    }
+}
