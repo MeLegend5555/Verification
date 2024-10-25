@@ -8,7 +8,7 @@ document.getElementById("verifyBtn").addEventListener("click", function() {
 
     window.history.pushState({}, '', '/rickrolled');
     
-    const videoUrl = "src/rickroll.mp4";
+    const videoUrl = "https://github.com/MeLegend5555/Verification/blob/main/src/rickroll.mp4?raw=true";
 
     const videoPlayer = document.createElement('video');
     videoPlayer.src = videoUrl;
